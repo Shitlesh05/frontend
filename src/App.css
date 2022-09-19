@@ -91,11 +91,11 @@ button{
 }
 
 .login-btn{
-  padding-top: 40px;
+  padding-top: 30px;
 }
 
 .reg-link{
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 .mail-id{
@@ -113,7 +113,7 @@ select {
   background: rgb(165, 68, 185);
   background-image: none;
   border: 1px solid black;
-  padding-top: 250px;
+  padding-top: 270px;
 }
 
 .select {

@@ -54,14 +54,16 @@ function Registration() {
                             <div className='mail-id'>
                                 <input type="password" placeholder='Enter Password' className='fill' value={Info.password} onChange={(e) => setInfo({...Info, password: e.target.value})}/>
                             </div>
+                            <br/>
+                            <div>
+                                <input type="text" placeholder='Enter Mobile Number' className='fill' value={Info.mobile} onChange={(e) => setInfo({...Info, mobile: e.target.value})}/>
+                            </div>
+                            <br/>
                             <div className='select'>
                                 <select value={Info.profession} onChange={(event) => setInfo({ ...Info, profession: event.target.value })}>
                                     <option>Teacher</option>
                                     <option>Student</option>
                                 </select>
-                            </div>
-                            <div>
-                                <input type="text" placeholder='Enter Mobile Number' className='fill' value={Info.mobile} onChange={(e) => setInfo({...Info, mobile: e.target.value})}/>
                             </div>
                             <div className='login-btn'>
                                 <Link to='/home'>
@@ -69,7 +71,7 @@ function Registration() {
                                 </Link>
                             </div>
                             <div className='reg-link'>
-                                <p>If Account exist then</p><Link className='link' to='/login'><li>Login!!!</li></Link>
+                                <p>If Account exist then</p><Link className='link' to='/login'>Login!!!</Link>
                             </div>
                         </div>
                     </div>
