@@ -1,6 +1,6 @@
-import React, {useState, useEffect} from 'react'
-import Login from './Login';
+import React, {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
+import Login from './Login';
 
 
 
@@ -66,12 +66,13 @@ function Registration() {
                                 </select>
                             </div>
                             <div className='login-btn'>
-                                <Link to='/home'>
+                                <Link to='/login'>
                                     <button type="submit">Register</button>
                                 </Link>
                             </div>
+                            <br/>
                             <div className='reg-link'>
-                                <p>If Account exist then</p><Link className='link' to='/login'>Login!!!</Link>
+                                <span>If Account exist then </span><Link className='link' to='/login'>Login!!!</Link>
                             </div>
                         </div>
                     </div>

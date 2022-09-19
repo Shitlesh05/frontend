@@ -24,7 +24,7 @@ function Login() {
                             {/* HERE WITH THE HELP OF LINK PROVIDED BY REACT-ROUTER WE CAN NAVIGATE TO OTHER PAGES 
                                 IN LINK WE HAVE TO PASS LOCATION OF THE NAVIGATING PAGE AS PATH IS DEFINED IN THE APP.JS*/}
                             <div className='login-btn'>
-                                <Link to='/home'>
+                                <Link to='/dashboard'>
                                     <button type="button">Login</button>
                                 </Link>
                             </div>

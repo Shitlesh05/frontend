@@ -8,7 +8,6 @@ import Navbar from 'react-bootstrap/Navbar';
 function Home() {
     return (
         <div>
-            
             <div className='component1'>
             <Navbar bg="primary" variant="dark">
                 <Container>
@@ -22,14 +21,10 @@ function Home() {
             </div>
             <div className='component2'>
                 <NavLink to="/Login">Login</NavLink>
-                
                 <NavLink to="/Registration">Registration</NavLink>   
             </div>
         </div>
     )
 }
-
-
-    
 
 export default Home;

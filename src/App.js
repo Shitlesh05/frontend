@@ -1,9 +1,9 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Home from "./component/Home";
 import Login from "./component/Login";
 import Registration from "./component/Registration";
-import Welcome from "./component/Welcome";
+import DashBoard from "./component/DashBoard";
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -19,7 +19,7 @@ function App() {
           <Route path="/" exact element={<Home/>} />
           <Route path="/login" element={<Login/>}/>
           <Route path="/registration" element={<Registration/>}/>
-          <Route path="/welcome" element={<Welcome/>}/>
+          <Route path="/dashboard" element={<DashBoard/>}/>
         </Routes>
       </div>
     </Router>
